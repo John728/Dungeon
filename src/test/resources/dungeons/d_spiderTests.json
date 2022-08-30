@@ -1,0 +1,18 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : -1,
+            "y" : -1
+        },{
+            "type" : "wall",
+            "x" : 0,
+            "y" : 1
+        },{
+            "type" : "exit",
+            "x" : 10,
+            "y" : 10
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}

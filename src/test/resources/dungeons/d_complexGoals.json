@@ -1,0 +1,35 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 1,
+            "y" : 1
+        }
+    ],
+    "goal-condition": {
+        "goal": "OR",
+        "subgoals": [
+            {
+                "goal": "AND",
+                "subgoals": [
+                    {
+                        "goal": "exit"
+                    },
+                    {
+                        "goal": "treasure"
+                    }
+                ]
+            },
+            {
+                "goal": "AND",
+                "subgoals": [
+                    {
+                        "goal": "boulders"
+                    },
+                    {
+                        "goal": "enemies"
+                    }
+                ]
+            }]
+    }
+}

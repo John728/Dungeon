@@ -1,0 +1,105 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 0,
+            "y" : 0
+        }, {
+            "type" : "arrow",
+            "x" : 1,
+            "y" : 0
+        },{
+            "type" : "wall",
+            "x" : 2,
+            "y" : 0
+        },{
+            "type": "exit",
+            "x": 3,
+            "y": 0
+        },{
+            "type": "boulder",
+            "x": 4,
+            "y": 0
+        },{
+            "type": "switch",
+            "x": 5,
+            "y": 0
+        },{
+            "type": "door",
+            "x": 6,
+            "y": 0,
+            "key": 2
+        },{
+            "type": "portal",
+            "x": 7,
+            "y": 0,
+            "colour": "red"
+        },{
+            "type": "zombie_toast_spawner",
+            "x": 8,
+            "y": 0
+        },{
+            "type": "spider",
+            "x": 9,
+            "y": 0
+        },{
+            "type": "zombie_toast",
+            "x": 10,
+            "y": 0
+        },{
+            "type": "switch",
+            "x": 0,
+            "y": 1
+        },{
+            "type": "mercenary",
+            "x": 1,
+            "y": 1
+        },{
+            "type": "treasure",
+            "x": 2,
+            "y": 1
+        },{
+            "type": "key",
+            "x": 3,
+            "y": 1,
+            "key": 2
+        },{
+            "type": "spider",
+            "x": 4,
+            "y": 1
+        },{
+            "type": "invincibility_potion",
+            "x": 5,
+            "y": 1
+        },{
+            "type": "invisibility_potion",
+            "x": 6,
+            "y": 1
+        },{
+            "type": "wood",
+            "x": 7,
+            "y": 1
+        },{
+            "type": "arrow",
+            "x": 8,
+            "y": 1
+        },{
+            "type": "bomb",
+            "x": 9,
+            "y": 1
+        },{
+            "type": "sword",
+            "x": 10,
+            "y": 1
+        },{
+            "type": "bow",
+            "x": 0,
+            "y": 2
+        },{
+            "type": "shield",
+            "x": 1,
+            "y": 2
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}
